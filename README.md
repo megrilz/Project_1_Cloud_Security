@@ -1,4 +1,3 @@
-<img width="947" alt="docker ps output" src="https://user-images.githubusercontent.com/73347552/110228092-65b94180-7ecc-11eb-8614-c398a209fb84.PNG">
 # Project_1_Cloud_Security
  Cloud Security: Linux, Ansible, and Diagrams
 - Filebeat watches for and monitors the log files or locations that you specify, collects log events, and forwards them to Elasticsearch for indexing. Filebeat collects data about the file system.
@@ -52,7 +51,7 @@ The following screenshot displays the result of running `docker ps` after succes
 <img width="947" alt="docker ps output" src="https://user-images.githubusercontent.com/73347552/110228099-75d12100-7ecc-11eb-8d04-20fa37486ff8.PNG">
 
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker ps output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
