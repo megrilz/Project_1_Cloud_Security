@@ -56,8 +56,8 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly secure, in addition to restricting access to the network.
-- _TODO: What aspect of security do load balancers protect?
-- What is the advantage of a jump box?_
+- The security aspects that load balancers protect the internal network of VMs. Standard load balancer is built on the zero trust network security model.
+- Jump box prevents all Azure VM’s to expose to the public. This means that this will be our entry point connecting via Remote Desktop Protocol (RDP) from our on-premise network. It also helps us to open only one port instead of several ports to connect different virtual machines present in the Azure cloud.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
  
