@@ -1,5 +1,36 @@
 # Project_1_Cloud_Security
  Cloud Security: Linux, Ansible, and Diagrams
+ 
+ ## Automated ELK Stack Deployment
+
+The files in this repository were used to configure the network depicted below.
+
+**Note**: The following image link needs to be updated. Replace `diagram_filename.png` with the name of your diagram image file.  
+
+![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+
+  - _TODO: Enter the playbook file._
+
+This document contains the following details:
+- Description of the Topologu
+- Access Policies
+- ELK Configuration
+  - Beats in Use
+  - Machines Being Monitored
+- How to Use the Ansible Build
+
+
+### Description of the Topology
+
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+
+Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+ 
 - Filebeat watches for and monitors the log files or locations that you specify, collects log events, and forwards them to Elasticsearch for indexing. Filebeat collects data about the file system.
 - Metricbeat helps you monitor your servers by recording the metrics from the system and services running on the server. Metricbeat collects machine metrics, such
 as uptime.
