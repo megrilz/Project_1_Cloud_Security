@@ -114,7 +114,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- web server 123
+- web server 1 10.0.0.7  
+- web server 2 10.0.0.8
+- web server 3 10.0.0.9
 
 We have installed the following Beats on these machines:
 - Filebeat
