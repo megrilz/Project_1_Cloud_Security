@@ -86,7 +86,6 @@ Machines within the network can only be accessed by SSH.
 - Only the Jump Box machine is allowed to access to the ELK Server VM. The Jump Box's Private IP address is 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
-
 | Name          | Publicly Accessible | Allowed IP Addresses         |
 |---------------|---------------------|------------------------------|
 | Jump Box      | YES/NO              | 10.0.0.7, 10.0.0.8, 10.0.0.9 |
