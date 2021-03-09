@@ -87,15 +87,15 @@ Machines within the network can only be accessed by SSH.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|     Elk     |            NO         |    10.2.0.4            |
-|        Load Balancer NO     52.149.183.114  
-Web 1       NO   
-Web2    NO
-Web 3|    NO      |                      |
-Firewall   YES    68.82.27.158
+| Name          | Publicly Accessible | Allowed IP Addresses         |
+|---------------|---------------------|------------------------------|
+| Jump Box      | YES/NO              | 10.0.0.7, 10.0.0.8, 10.0.0.9 |
+| Elk Server    | NO                  | 10.2.0.4                     |
+| Web 1         | NO                  | 10.0.0.7                     |
+| Web 2         | NO                  | 10.0.0.8                     |
+| Web 3         | NO                  | 10.0.0.9                     |
+| Load Balancer | NO                  | 52.149.183.114               |
+| Firewall      | YES                 | 68.82.27.158                 |
 
 ### Elk Configuration
 
