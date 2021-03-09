@@ -80,18 +80,22 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 68.82.27.158
+- 137.135.117.87
 
 Machines within the network can only be accessed by SSH.
-- Only the Jump Box machine is allowed to access to the ELK Server VM. The Jump Box's Public IP address is 137.135.117.87.
+- Only the Jump Box machine is allowed to access to the ELK Server VM. The Jump Box's Private IP address is 10.0.0.4.
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |    172.    17.0.1              |
-|          |                     |                      |
+|     Elk     |            NO         |    10.2.0.4            |
+|        Load Balancer NO     52.149.183.114  
+Web 1       NO   
+Web2    NO
+Web 3|    NO      |                      |
+Firewall   YES    68.82.27.158
 
 ### Elk Configuration
 
@@ -111,7 +115,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- web server 123
 
 We have installed the following Beats on these machines:
 - Filebeat
