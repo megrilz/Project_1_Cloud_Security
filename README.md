@@ -135,7 +135,7 @@ SSH into the control node and follow the steps below:
 - Update the filebeat-playbook.yml file to include filebeat modules enable system, filebeat setup, and service filebeat start.
 - Run the playbook, and navigate to /etc/ansible/ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+Steps:
 - The filebeat-playbook.yml is the playbook. Then copy the Filebeat configuration file from your Ansible container to your WebVM's where you just installed Filebeat.
 - You update the host configuration file, called filebeat-config.yml with the VM IP, to make Ansible run the playbook on a specific machine. 
 - This list is Ansible's inventory and is stored in the hosts text file /etc/ansible/hosts. Creat groups [webservers] and [elk]. When you run playbooks with Ansible, you specify which group to run them on. This allows you to run certain playbooks on some machines, but not on others
