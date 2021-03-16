@@ -1,4 +1,5 @@
 Scenario
+
 You have just been hired by Lucky Duck Casino as a security analyst.
 Lucky Duck has lost a significant amount of money on the roulette tables over the last month.
 The largest losses occurred on March 10, 12, and 15.
