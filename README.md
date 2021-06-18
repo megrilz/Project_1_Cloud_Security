@@ -1,4 +1,4 @@
-# Project_1_Cloud_Security
+# Cloud Security
  Cloud Security: Linux, Ansible, and Diagrams
  
  ## Automated ELK Stack Deployment
